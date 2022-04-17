@@ -8,10 +8,13 @@
   "dependencies": {
     "@slidev/cli": "^0.30.3",
     "@slidev/theme-apple-basic": "^0.20.0",
-    "@slidev/theme-default": "*",
+    "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "*",
     "slidev-theme-flayyer": "^1.0.2",
     "slidev-theme-light-icons": "^1.0.2"
   },
-  "name": "monodeza01"
+  "name": "monodeza01",
+  "devDependencies": {
+    "playwright-chromium": "^1.21.0"
+  }
 }
