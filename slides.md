@@ -23,91 +23,91 @@ drawings:
 
 ---
 
-# 時間割確認サイト
-**920017 遠藤 哲**
+  # 時間割確認サイト
+  **920017 遠藤 哲**
 ---
 layout: center
 ---
-# **次の授業って何だっけ?**
+  # **次の授業って何だっけ?**
 
 ---
 
-# **現状の解決策**
-- ### 友だちに聞く
-- ### 授業時間割表やポータルで確認する
-- ### 予め自分で作って置いた時間割表を確認する
-- ### サボる
+  # **現状の解決策**
+  - ### 友だちに聞く
+  - ### 授業時間割表やポータルで確認する
+  - ### 予め自分で作って置いた時間割表を確認する
+  - ### サボる
 ---
 layout: center
 
 ---
-# **新しい解決策**
+  # **新しい解決策**
 
 ---
 layout: two-cols
 ---
 
-# **仮UI**
-<ul class="image">
-  <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
+  # **仮UI**
+  <ul class="image">
+    <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
 
-  <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
-</ul>
+    <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
+  </ul>
 
-<style>
-  .image {
-    display: flex;
-    justify-content: center;
-  }
+  <style>
+    .image {
+      display: flex;
+      justify-content: center;
+    }
 
-  .noColum {
-    list-style: none;
-  }
+    .noColum {
+      list-style: none;
+    }
 
-  li:nth-child(2) {
-    margin: 0 21px;
-  }
-</style>
+    li:nth-child(2) {
+      margin: 0 21px;
+    }
+  </style>
 
-::right::
-# **授業確認アプリ**
-- ### アクセスすると次の授業や一週間の授業が確認できる**webアプリ**
-- ### LOGINすると自分の履修内容に編集できるor自動で自分の履修内容を確認できる
-- ### LOGINで留年にも対応
-- ### 梅田キャンパスのみ対応
+  ::right::
+  # **授業確認アプリ**
+  - ### アクセスすると次の授業や一週間の授業が確認できる**webアプリ**
+  - ### LOGINすると自分の履修内容に編集できるor自動で自分の履修内容を確認できる
+  - ### LOGINで留年にも対応
+  - ### 梅田キャンパスのみ対応
 ---
 layout: two-cols
 ---
-# **仮UI**
-<ul class="image">
-  <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
+  # **仮UI**
+  <ul class="image">
+    <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
 
-  <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
-</ul>
+    <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
+  </ul>
 
-<style>
-  .image {
-    display: flex;
-    justify-content: center;
-  }
+  <style>
+    .image {
+      display: flex;
+      justify-content: center;
+    }
 
-  .noColum {
-    list-style: none;
-  }
+    .noColum {
+      list-style: none;
+    }
 
-  li:nth-child(2) {
-    margin: 0 21px;
-  }
-</style>
+    li:nth-child(2) {
+      margin: 0 21px;
+    }
+  </style>
 
-::right::
-# **そんなサービス作れるのか?**
-- ### 梅田キャンパスの学生は履修内容がほどんど同じ!
-- ### 各教室にある出席管理システムの情報が取れれば最高
-- ### バックエンド側,認証周りの処理はFirebaseで実装
+  ::right::
+  # **そんなサービス作れるのか?**
+  - ### 梅田キャンパスの学生は履修内容がほどんど同じ!
+  - ### 各教室にある出席管理システムの情報が取れれば最高
+  - ### バックエンド側,認証周りの処理はFirebaseで実装
 ---
 
-# Diagrams
+  # Diagrams
 ---
 layout: center
 ---
