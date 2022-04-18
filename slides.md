@@ -12,10 +12,10 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-title: 時間割確認サイト
+title: 開発案
 ---
 
-# 時間割確認サイト
+# 開発案
   **920017 遠藤 哲**
 
 <!--
