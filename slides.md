@@ -28,8 +28,11 @@ drawings:
   **920017 遠藤 哲**
 ---
 layout: center
+class: text-center
+
 ---
   # **次の授業って何だっけ?**
+  # **教室ってどこだっけ?**
 
 ---
 
@@ -50,9 +53,8 @@ layout: two-cols
 
   # **仮UI**
   <ul class="image">
-    <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
-
-    <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
+    <li class="noColum"><img src="img/SOMEONE.png" class=" w-400px " /></li>
+    <li class="noColum"><img src="img/HOME.png" class=" w-400px " /></li>
   </ul>
 
   <style>
@@ -70,7 +72,7 @@ layout: two-cols
     }
   </style>
 
-  ::right::
+::right::
   # **授業確認アプリ**
   - ### アクセスすると次の授業や一週間の授業が確認できる**webアプリ**
   - ### LOGINすると自分の履修内容に編集できるor自動で自分の履修内容を確認できる
@@ -81,9 +83,8 @@ layout: two-cols
 ---
   # **仮UI**
   <ul class="image">
-    <li class="noColum"><img src="/img/SOMEONE.png" class=" w-400px " /></li>
-
-    <li class="noColum"><img src="/img/HOME.png" class=" w-400px " /></li>
+    <li class="noColum"><img src="img/SOMEONE.png" class=" w-400px " /></li>
+    <li class="noColum"><img src="img/HOME.png" class=" w-400px " /></li>
   </ul>
 
   <style>
@@ -101,18 +102,17 @@ layout: two-cols
     }
   </style>
 
-  ::right::
+::right::
   # **そんなサービス作れるのか?**
   - ### 梅田キャンパスの学生は履修内容がほどんど同じ!
   - ### 各教室にある出席管理システムの情報が取れれば最高
   - ### バックエンド側,認証周りの処理はFirebaseで実装
----
-
-  # Diagrams
+  - ### 上の二つができなくても履修の情報は$(S + R + W) \times 4年間$でいいのでこちら側でデータベース作ってもいい。
 ---
 layout: center
 ---
 
-# **END**
+# **もうキャンパスでは迷子にならない!**
+
 
 <!-- [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html) -->
